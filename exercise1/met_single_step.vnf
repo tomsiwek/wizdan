@@ -1,0 +1,38 @@
+#VisNow regular field
+field "met", dims  432 600
+origin -2.2300e+02 -3.0700e+02 -1.0000e+00 
+    v0 1.0371e+00 0.0000e+00 0.0000e+00 
+    v1 0.0000e+00 1.0267e+00 0.0000e+00 
+    v2 0.0000e+00 0.0000e+00 0.0000e+00 
+user extent x -2.2300e+02 2.2399e+02 
+user extent y -3.0700e+02 3.0799e+02 
+user extent z -1.0000e+00 -1.0000e+00 
+component                      orography   float, preferred_min -53.0, preferred_max 3050.875, preferred_phys_min -53.0, preferred_phys_max 3050.875
+component                  10_metre_wind   float, vector 2, preferred_min 0.0, preferred_max 16.88425672038897, preferred_phys_min 0.0, preferred_phys_max 16.88425672038897
+component            temperature_at_1_5m   float, preferred_min 261.625, preferred_max 288.375, preferred_phys_min 261.625, preferred_phys_max 288.375
+component          fog_fraction_at_1_5_m   float, preferred_min 0.0, preferred_max 1.0, preferred_phys_min 0.0, preferred_phys_max 1.0
+component     vis_at_1_5m___incl_precip_   float, preferred_min 45.0, preferred_max 96903.0, preferred_phys_min 45.0, preferred_phys_max 96903.0
+component        large_scale_rain_amount   float, preferred_min 0.0, preferred_max 0.9375, preferred_phys_min 0.0, preferred_phys_max 0.9375
+component        large_scale_snow_amount   float, preferred_min 0.0, preferred_max 0.74609375, preferred_phys_min 0.0, preferred_phys_max 0.74609375
+component         convective_rain_amount   float, preferred_min 0.0, preferred_max 3.7578125, preferred_phys_min 0.0, preferred_phys_max 3.7578125
+component         convective_snow_amount   float, preferred_min 0.0, preferred_max 2.58984375, preferred_phys_min 0.0, preferred_phys_max 2.58984375
+component     total_precipitation_amount   float, preferred_min -2.710505431213761E-18, preferred_max 3.763946771621704, preferred_phys_min -2.710505431213761E-18, preferred_phys_max 3.763946771621704
+component               low_cloud_amount   float, preferred_min 0.0, preferred_max 1.0, preferred_phys_min 0.0, preferred_phys_max 1.0
+component total_cloud_amount_max_overlap   float, preferred_min 0.0, preferred_max 1.0, preferred_phys_min 0.0, preferred_phys_max 1.0
+component     pressure_at_mean_sea_level   float, preferred_min 97273.0, preferred_max 102596.0, preferred_phys_min 97273.0, preferred_phys_max 102596.0
+component                        normals   float, vector 3, preferred_min 0.0, preferred_max 1.0, preferred_phys_min 0.0, preferred_phys_max 1.0
+file "met_single_step.vnd" binary
+orography
+10_metre_wind
+temperature_at_1_5m
+fog_fraction_at_1_5_m
+vis_at_1_5m___incl_precip_
+large_scale_rain_amount
+large_scale_snow_amount
+convective_rain_amount
+convective_snow_amount
+total_precipitation_amount
+low_cloud_amount
+total_cloud_amount_max_overlap
+pressure_at_mean_sea_level
+normals
