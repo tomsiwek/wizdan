@@ -1,0 +1,20 @@
+#VisNow irregular field
+field "shock", nnodes = 4218
+user extent x 1.5000e+02 2.1060e+02 1
+user extent y 3.4150e+01 7.4650e+01 1
+user extent z 2.0300e+01 8.2400e+01 1
+component Displacement   float, vector 3, unit in, preferred_min 0.0, preferred_max 6.480740594334264E-6, preferred_phys_min 0.0, preferred_phys_max 6.480740594334264E-6
+component      indices   float, unit 1, preferred_min 0.0, preferred_max 3896.0, preferred_phys_min 0.0, preferred_phys_max 3896.0
+CellSet shock
+triangles       126
+quadrangles    3775
+file "shock.vnd" binary
+coords
+Displacement
+indices
+shock:triangles:nodes
+shock:triangles:indices
+shock:triangles:orientations
+shock:quadrangles:nodes
+shock:quadrangles:indices
+shock:quadrangles:orientations

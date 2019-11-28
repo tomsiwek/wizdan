@@ -1,0 +1,13 @@
+#VisNow regular field
+field "bluntfin", dims  40 32 32, coords
+user extent x -7.8157e+00 1.4362e+01 1
+user extent y 0.0000e+00 8.3276e+00 1
+user extent z 0.0000e+00 5.7243e+00 1
+component    density   float, unit kg/m3, preferred_min 0.19259999692440033, preferred_max 4.977499961853027, preferred_phys_min 0.19259999692440033, preferred_phys_max 4.977499961853027
+component   momentum   float, vector 3, unit kg*m/s/m3, preferred_min 0.0, preferred_max 2.487962821507732, preferred_phys_min 0.0, preferred_phys_max 2.487962821507732
+component stagnation   float, unit 1, preferred_min 0.7689569592475891, preferred_max 25.160999298095703, preferred_phys_min 0.7689569592475891, preferred_phys_max 25.160999298095703
+file "bluntfin.vnd" binary
+coords
+density
+momentum
+stagnation

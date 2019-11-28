@@ -1,0 +1,16 @@
+#VisNow irregular field
+field "case_engpokkk2", nnodes = 790580
+user extent x -2.2002e-01 2.2002e-01 1
+user extent y 0.0000e+00 3.1495e-01 1
+user extent z -5.8230e-01 0.0000e+00 1
+component Displacement   float, vector 3, unit 1, preferred_min 0.0, preferred_max 7.089970419353798E-5, preferred_phys_min 0.0, preferred_phys_max 7.089970419353798E-5
+component node_indices integer, unit 1, preferred_min 0.0, preferred_max 790579.0, preferred_phys_min 0.0, preferred_phys_max 790579.0
+CellSet 1_body_____0__0__0__
+tetrahedra   460196
+file "engine.vnd" binary
+coords
+Displacement
+node_indices
+1_body_____0__0__0__:tetrahedra:nodes
+1_body_____0__0__0__:tetrahedra:indices
+1_body_____0__0__0__:tetrahedra:orientations
