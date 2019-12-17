@@ -1,0 +1,22 @@
+#VisNow regular field
+field "Field_name", dims  61 61
+origin 0.0000e+00 0.0000e+00 0.0000e+00 
+    v0 1.0000e+00 0.0000e+00 0.0000e+00 
+    v1 0.0000e+00 1.0000e+00 0.0000e+00 
+    v2 0.0000e+00 0.0000e+00 0.0000e+00 
+user extent x 0.0000e+00 6.0000e+01 
+user extent y 0.0000e+00 6.0000e+01 
+user extent z 0.0000e+00 0.0000e+00 
+component interpolated_data   float, preferred_min -140.3, preferred_max 691.8, preferred_phys_min -140.3, preferred_phys_max 691.8
+component     adjusted_data   float, preferred_min -380.2, preferred_max 451.9, preferred_phys_min -380.2, preferred_phys_max 451.9
+component      rounded_data   float, preferred_min -377.8, preferred_max 454.3, preferred_phys_min -377.8, preferred_phys_max 454.3
+component        final_data   float, preferred_min -378.7, preferred_max 442.7, preferred_phys_min -378.7, preferred_phys_max 442.7
+component           segment   float, preferred_min -0.1, preferred_max 0.1, preferred_phys_min -0.1, preferred_phys_max 0.1
+component     analysis_mask   float, preferred_min 90.0, preferred_max 110.0, preferred_phys_min 90.0, preferred_phys_max 110.0
+file "coronary_vessel_slice_0.vnd" binary
+interpolated_data
+adjusted_data
+rounded_data
+final_data
+segment
+analysis_mask

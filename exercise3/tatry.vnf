@@ -1,0 +1,12 @@
+#VisNow regular field
+field "Field_name", dims  1201 1201
+origin 0.0000e+00 0.0000e+00 0.0000e+00 
+    v0 1.0000e+00 0.0000e+00 0.0000e+00 
+    v1 0.0000e+00 1.0000e+00 0.0000e+00 
+    v2 0.0000e+00 0.0000e+00 0.0000e+00 
+user extent x 0.0000e+00 1.2000e+03 
+user extent y 0.0000e+00 1.2000e+03 
+user extent z 0.0000e+00 0.0000e+00 
+component height   float, preferred_min 0.0, preferred_max 1938.0, preferred_phys_min 0.0, preferred_phys_max 1938.0
+file "tatry.vnd" binary
+height
