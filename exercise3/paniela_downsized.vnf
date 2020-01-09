@@ -1,0 +1,12 @@
+#VisNow regular field
+field "Field_name", dims  171 171 107
+origin 0.0000e+00 0.0000e+00 0.0000e+00 
+    v0 2.1914e+00 0.0000e+00 0.0000e+00 
+    v1 0.0000e+00 2.1914e+00 0.0000e+00 
+    v2 0.0000e+00 0.0000e+00 2.5000e+00 
+user extent x 0.0000e+00 3.7254e+02 1
+user extent y 0.0000e+00 3.7254e+02 1
+user extent z 0.0000e+00 2.6500e+02 1
+component PANI_ELA   short,          min -1024.00000, max 3071.00000, phys_min -1024.00000, phys_max 3071.00000
+file "paniela_downsized.vnd" binary
+PANI_ELA
