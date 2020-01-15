@@ -1,0 +1,20 @@
+#VisNow irregular field
+field "coronary_flow", nnodes = 117129
+user extent x 6.0307e-02 1.3033e-01 
+user extent y 3.1180e-02 1.1340e-01 
+user extent z 2.5586e-02 1.0439e-01 
+component PRESSURE   float, min -66.5, max 1673.7, phys_min -66.5, phys_max 1673.7, min   -66.540, max  1673.702, phys_min   -66.540, phys_max  1673.702
+component VELOCITY   float, vector 3, min 0.0, max 1.14, phys_min 53.0E-6, phys_max 1.14, min     0.000, max     1.140, phys_min     0.000, phys_max     1.140
+CellSet zone_187
+tetrahedra    66152
+prisms       197296
+file "coronary.vnd" binary
+coords
+PRESSURE
+VELOCITY
+zone_187:tetrahedra:nodes
+zone_187:tetrahedra:indices
+zone_187:tetrahedra:orientations
+zone_187:prisms:nodes
+zone_187:prisms:indices
+zone_187:prisms:orientations
